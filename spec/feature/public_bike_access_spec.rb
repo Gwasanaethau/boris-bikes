@@ -1,5 +1,5 @@
 require 'capybara/rspec'
-require 'docking_station.rb'
+require 'docking_station'
 
 feature 'member of public accesses bike' do
   scenario 'docking station releases a bike that is not broken' do
