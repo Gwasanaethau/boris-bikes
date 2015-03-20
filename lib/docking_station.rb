@@ -26,6 +26,6 @@ class DockingStation
   end
 
   def empty?
-    bikes.empty?
+    bikes.reject(&:broken?).length == 0
   end
 end
